@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "580233883893",
+    "firebase_url": "https://minidoctorapp-e97cf.firebaseio.com",
+    "project_id": "minidoctorapp-e97cf",
+    "storage_bucket": "minidoctorapp-e97cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580233883893:android:e1bd668b9b314e05",
+        "android_client_info": {
+          "package_name": "com.example.nahiduddinahammed.minidoctorproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580233883893-52nu6d3ls8n3ua3ddkrnc7ug7c2s4nfo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfVmI27vOR20eRWZEq0bVbj_tDJKFEALQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

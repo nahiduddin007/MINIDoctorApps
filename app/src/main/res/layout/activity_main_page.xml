@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nahiduddinahammed.minidoctorproject.MainPageActivity">
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical">
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="240dp"
+             android:background="@drawable/dct"
+             android:gravity="bottom"
+             android:text="মিনি ডাক্তার"
+             android:textAlignment="center"
+             android:textColor="@color/colorPrimaryDark"
+             android:textSize="36sp"
+             android:textStyle="bold" />
+
+         <LinearLayout
+
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:weightSum="3">
+
+             <LinearLayout
+
+                 android:id="@+id/grad1"
+                 android:layout_width="0dp"
+                 android:layout_height="120dp"
+                 android:layout_margin="2dp"
+                 android:layout_weight="1"
+                 android:background="@color/colorGrapeFruit"
+                 android:clickable="true"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:layout_width="30dp"
+                     android:layout_height="26dp"
+                     android:layout_gravity="center"
+                     android:layout_marginTop="20dp"
+
+                     android:background="@drawable/first"
+                     android:tint="@color/colorWhite" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="50dp"
+                     android:layout_marginTop="20dp"
+                     android:background="@color/colorGrapeFruitDark"
+                     android:clickable="false"
+                     android:padding="8dp"
+                     android:text="প্রাথমিক চিকিৎসা"
+                     android:textAlignment="center"
+                     android:textColor="@color/colorWhite"
+                     android:textSize="14sp" />
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:id="@+id/grad2"
+                 android:layout_width="0dp"
+                 android:layout_height="120dp"
+                 android:layout_margin="2dp"
+                 android:layout_weight="1"
+                 android:background="@color/colorBitterSweet"
+                 android:clickable="true"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:layout_width="30dp"
+                     android:layout_height="30dp"
+                     android:layout_gravity="center"
+                     android:layout_marginTop="20dp"
+                     android:background="@drawable/medicine"
+                     android:tint="@color/colorWhite" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_marginTop="20dp"
+                     android:background="@color/colorBitterSweetDark"
+                     android:padding="8dp"
+                     android:text="ঔষুধ"
+                     android:textAlignment="center"
+                     android:textColor="@color/colorWhite"
+                     android:textSize="14sp" />
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:id="@+id/grad3"
+                 android:layout_width="0dp"
+                 android:layout_height="120dp"
+                 android:layout_margin="2dp"
+                 android:layout_weight="1"
+                 android:background="@color/colorFlower"
+                 android:clickable="true"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:layout_width="30dp"
+                     android:layout_height="30dp"
+                     android:layout_gravity="center"
+                     android:layout_marginTop="20dp"
+
+                     android:background="@drawable/favourite"
+                     android:tint="@color/colorWhite" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_marginTop="20dp"
+                     android:background="@color/colorFlowerDark"
+                     android:padding="8dp"
+                     android:text="পছন্দের ঔষুধ"
+                     android:textAlignment="center"
+                     android:textColor="@color/colorWhite"
+                     android:textSize="14sp" />
+
+             </LinearLayout>
+
+
+         </LinearLayout>
+
+         <!-- Second Row-->
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:weightSum="3">
+
+             <LinearLayout
+                 android:id="@+id/grad4"
+                 android:layout_width="0dp"
+                 android:layout_height="120dp"
+                 android:layout_margin="2dp"
+                 android:layout_weight="1"
+                 android:background="@color/colorGrass"
+                 android:clickable="true"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:layout_width="27dp"
+                     android:layout_height="29dp"
+                     android:layout_gravity="center"
+                     android:layout_marginTop="20dp"
+
+                     android:background="@drawable/hospital_icon"
+                     android:tint="@color/colorWhite" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_marginTop="20dp"
+                     android:background="@color/colorGrassDark"
+                     android:padding="8dp"
+                     android:text="হাসপাতাল"
+                     android:textAlignment="center"
+                     android:textColor="@color/colorWhite"
+                     android:textSize="14sp" />
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:id="@+id/grad5"
+                 android:layout_width="0dp"
+                 android:layout_height="120dp"
+                 android:layout_margin="2dp"
+                 android:layout_weight="1"
+                 android:background="@color/colorBlueJeans"
+                 android:clickable="true"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:layout_width="30dp"
+                     android:layout_height="30dp"
+                     android:layout_gravity="center"
+                     android:layout_marginTop="20dp"
+
+                     android:background="@drawable/doctor_icon"
+                     android:tint="@color/colorWhite" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_marginTop="20dp"
+                     android:background="@color/colorBlueJeansDark"
+                     android:padding="8dp"
+                     android:text="বিশেষজ্ঞ ডাক্তার"
+                     android:textAlignment="center"
+                     android:textColor="@color/colorWhite"
+                     android:textSize="14sp" />
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:id="@+id/grad6"
+                 android:layout_width="0dp"
+                 android:layout_height="120dp"
+                 android:layout_margin="2dp"
+                 android:layout_weight="1"
+                 android:background="@color/colorLavander"
+                 android:clickable="true"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:layout_width="30dp"
+                     android:layout_height="30dp"
+                     android:layout_gravity="center"
+                     android:layout_marginTop="20dp"
+
+                     android:background="@android:drawable/stat_sys_phone_call"
+                     android:tint="@color/colorWhite" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_marginTop="20dp"
+                     android:background="@color/colorLavanderDark"
+                     android:padding="8dp"
+                     android:text="যোগাযোগ করুন"
+                     android:textAlignment="center"
+                     android:textColor="@color/colorWhite"
+                     android:textSize="14sp" />
+
+             </LinearLayout>
+
+
+         </LinearLayout>
+         <!-- End Second Row-->
+         <!-- Third Row-->
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:weightSum="3">
+
+             <LinearLayout
+                 android:id="@+id/grad7"
+                 android:layout_width="0dp"
+                 android:layout_height="120dp"
+                 android:layout_margin="2dp"
+                 android:layout_weight="1"
+                 android:background="@color/colorMint"
+                 android:orientation="vertical">
+
+
+                 <ImageView
+                     android:layout_width="30dp"
+                     android:layout_height="30dp"
+                     android:layout_gravity="center"
+                     android:layout_marginTop="20dp"
+
+                     android:background="@drawable/ambulence"
+                     android:tint="@color/colorWhite" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_marginTop="20dp"
+                     android:background="@color/colorMintDark"
+                     android:padding="8dp"
+                     android:text="জরুরী অ্যাম্বুলেন্স"
+                     android:textAlignment="center"
+                     android:textColor="@color/colorWhite"
+                     android:textSize="14sp" />
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:id="@+id/grad8"
+                 android:layout_width="0dp"
+                 android:layout_height="120dp"
+                 android:layout_margin="2dp"
+                 android:layout_weight="1"
+                 android:background="@color/colorAqua"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:layout_width="30dp"
+                     android:layout_height="30dp"
+                     android:layout_gravity="center"
+                     android:layout_marginTop="20dp"
+
+                     android:background="@drawable/search"
+                     android:tint="@color/colorWhite" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_marginTop="20dp"
+                     android:background="@color/colorAquaDark"
+                     android:padding="8dp"
+                     android:text="খুঁজুন"
+                     android:textAlignment="center"
+                     android:textColor="@color/colorWhite"
+                     android:textSize="14sp" />
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:id="@+id/grad9"
+                 android:layout_width="0dp"
+                 android:layout_height="120dp"
+                 android:layout_margin="2dp"
+                 android:layout_weight="1"
+                 android:background="@color/colorPinkRose"
+                 android:orientation="vertical">
+
+                 <ImageView
+                     android:layout_width="30dp"
+                     android:layout_height="30dp"
+                     android:layout_gravity="center"
+                     android:layout_marginTop="20dp"
+
+                     android:background="@drawable/bmi_icon"
+                     android:tint="@color/colorWhite" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_marginTop="20dp"
+                     android:background="@color/colorPinkRoseDark"
+                     android:padding="8dp"
+                     android:text="বিমআই দেখুন "
+                     android:textAlignment="center"
+                     android:textColor="@color/colorWhite"
+                     android:textSize="14sp" />
+
+             </LinearLayout>
+
+
+         </LinearLayout>
+         <!-- End Third Row-->
+
+     </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

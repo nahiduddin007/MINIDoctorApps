@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/Submenu"
+        android:icon="@drawable/ic_menu_moreoverflow_normal_holo_dark"
+        android:title="Submenu &gt;"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/submenu_1"
+                android:title="@string/infokurz" />
+
+
+
+        </menu>
+    </item>
+</menu>
