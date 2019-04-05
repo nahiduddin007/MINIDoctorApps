@@ -59,18 +59,18 @@ public class DoctorsPageActivity extends AppCompatActivity {
         doctorList.add(
                 new Doctor(
                         1,
-                        "অধ্যাপক ড. ফজলুল হক",
-                        "মেডিসিন বিভাগ",
+                        "Dr.Fazlul Haque",
+                        "Medicine Consultant",
                         " +৮৮০-1674058435",
-                        "ঢাকা মেডিকেল কলেজ ও হাসপাতাল",
+                        "Dhaka medical College Hospital",
                         R.drawable.doc));
         doctorList.add(
                 new Doctor(
                         1,
-                        "প্রফেসর ড. শেখ Nesaruddin আহমেদ",
-                        "মেডিসিন বিভাগ",
+                        "Dr. Nesaruddin",
+                        "Medicine Consultant",
                         "3-9670210",
-                        "ঢাকা মেডিকেল কলেজ হাসপাতাল",
+                        "Dhaka medical College Hospital",
                         R.drawable.doc));
         doctorList.add(
                 new Doctor(

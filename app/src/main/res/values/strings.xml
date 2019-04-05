@@ -41,16 +41,16 @@
 
     <string-array name="Consultant_doctor">
 
-        <item>স্নায়ুরোগ বিশেষজ্ঞ</item>
-        <item>বাতরোগ বিশেষজ্ঞ</item>
-        <item>হৃদরোগ বিশেষজ্ঞ</item>
-        <item>ডায়বেটিকস বিশেষজ্ঞ</item>
-        <item>নাক,কান ও গলা বিশেষজ্ঞ </item>
-        <item>চক্ষুরোগ বিশেষজ্ঞ</item>
-        <item>স্ত্রী ও প্রসূতি রোগ বিশেষজ্ঞ</item>
-        <item>চর্ম ও যৌন রোগ বিশেষজ্ঞ</item>
-        <item>শিশুরোগ বিশেষজ্ঞ</item>
-        <item>কিডনিরোগ বিশেষজ্ঞ</item>
+        <item>Neorologist</item>
+        <item>Arthritis specialist</item>
+        <item>Cardiologist</item>
+        <item>Diabetologist</item>
+        <item>ENT Consultant </item>
+        <item>Eye Consultant</item>
+        <item>Flu and maternal disease specialist</item>
+        <item>Dermatologist</item>
+        <item>Pediatrician</item>
+        <item>Kidney specialist</item>
 
 
     </string-array>
